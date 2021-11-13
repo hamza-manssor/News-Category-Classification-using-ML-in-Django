@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+    <title>News Category Classification</title>
+    <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-1b93190375e9ccc259df3a57c1abc0e64599724ae30d7ea4c6877eb615f89387.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://static.tumblr.com/maopbtg/oimmiw86r/jquery.autosize-min.js"></script>
+    <script id="rendered-js">
+        $(document).ready(function () {
+            $('#title').focus();
+            $('#text').autosize();
+        });
+    </script>
+    <style>
+        
+
+    </style>
+
+</head>
+<body>
+    <div id="wrapper">
+        <form id="paper" method="POST" action="" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% if category != None %}
+                <div id="margin">Category this text : {{category}}</div>
+            {% endif %}
+            {% if category == None %}
+                <div id="margin">Text Classification</div>
+            {% endif %}
+            <textarea placeholder="Enter something ..." type="text" id="text" name="text" rows="4" style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; ">{% if tx == None %} {% else %}{{tx}}{% endif %}</textarea>  
+            <br>
+            <input id="button" type="submit" value="Process">
+        </form>
+    
+    </div>
+
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/hamza-manssor/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/hamza-manssor"><i class="fab fa-github"></i></a>
+                <a href="https://www.kaggle.com/hamzamanssor"><i class="fab fa-kaggle"></i></a>
+            </div>
+            <div class="copyright">Copyright © 2021 Hamza Manssor</div>
+        </footer>
+    </div>
+</body>
+</html>
