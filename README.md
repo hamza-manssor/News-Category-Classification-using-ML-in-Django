@@ -1,7 +1,6 @@
 [![Django][django-shield]][django-url]
 [![kaggle][kaggle-shield]][kaggle-url]
-[![Kears][keras-shield]][keras-url]
-[![Tensorflow][Tensorflow-shield]][Tensorflow-url]
+[![scikit-learn][scikit-learn-shield]][scikit-learn-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
@@ -60,9 +59,7 @@ See the video above on how to use.
 [linkedin-url]: https://www.linkedin.com/in/hamza-manssor/
 [django-url]:https://www.djangoproject.com/
 [django-shield]:https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green
-[keras-url]:https://keras.io/
-[keras-shield]:https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white
-[Tensorflow-url]:https://www.tensorflow.org/
-[Tensorflow-shield]:	https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white
+[scikit-learn-url]:https://scikit-learn.org
+[scikit-learn-shield]:https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
 [Kaggle-url]:https://www.kaggle.com/hamzamanssor
 [kaggle-shield]:https://img.shields.io/badge/Kaggle-0095D5?style=for-the-badge&logo=Kaggle&logoColor=white
