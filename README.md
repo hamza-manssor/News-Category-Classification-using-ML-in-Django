@@ -53,7 +53,7 @@ See the video above on how to use.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/hamza-manssor/Sport-Classification-Using-Deep-Learning-In-Django/blob/master/LICENSE.txt
+[license-url]: https://github.com/hamza-manssor/News-Category-Classification-using-ML-in-Django/blob/master/LICENSE.txt
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/hamza-manssor/
